@@ -75,4 +75,17 @@ Public Class frmFitness
         btnWeightLoss.Enabled = False
 
     End Sub
+
+    Private Sub MnuClear_Click(sender As Object, e As EventArgs) Handles mnuClear.Click
+        'This event clears the ListBox object and hides the average weight label. It also re-enables the Weight Loss button
+        lstWeightLoss.Items.Clear()
+        lblAverageLoss.Visible = False
+        btnWeightLoss.Enabled = True
+
+    End Sub
+
+    Private Sub MnuExit_Click(sender As Object, e As EventArgs) Handles mnuExit.Click
+        'Closes window exits application
+        Close()
+    End Sub
 End Class
