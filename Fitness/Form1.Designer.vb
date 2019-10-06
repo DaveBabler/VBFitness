@@ -113,6 +113,7 @@ Partial Class frmFitness
         Me.AccessibleDescription = "Form for showing amount of weight loss"
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackgroundImage = Global.Fitness.My.Resources.Resources.Scale
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(659, 436)
@@ -122,6 +123,8 @@ Partial Class frmFitness
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.mnuFitness)
         Me.MainMenuStrip = Me.mnuFitness
+        Me.MaximumSize = New System.Drawing.Size(675, 475)
+        Me.MinimumSize = New System.Drawing.Size(675, 475)
         Me.Name = "frmFitness"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds
         Me.Text = "Fitness Challenge"
