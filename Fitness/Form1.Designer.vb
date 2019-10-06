@@ -110,6 +110,7 @@ Partial Class frmFitness
         'frmFitness
         '
         Me.AcceptButton = Me.btnWeightLoss
+        Me.AccessibleDescription = "Form for showing amount of weight loss"
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Fitness.My.Resources.Resources.Scale
